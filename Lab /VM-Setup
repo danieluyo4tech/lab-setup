@@ -1,0 +1,63 @@
+# Kali Linux Setup (Attacker Machine)
+
+Kali Linux serves as the primary penetration testing and security auditing workstation in this lab.
+
+---
+
+## 🖥️ Minimum Requirements
+- **RAM:** 2–4 GB  
+- **CPU:** 2 cores  
+- **Storage:** 30 GB  
+- **Network:** NAT or Host-Only (recommended)
+
+---
+
+## 📥 Step 1 — Download Kali Linux
+Download the latest ISO from the official site:  
+https://www.kali.org/get-kali/
+
+Choose **Kali Linux Installer (64-bit ISO)**.
+
+---
+
+## 🛠 Step 2 — Create the VM in VirtualBox
+1. Open VirtualBox → New  
+2. Name: `Kali-Linux`  
+3. Type: **Linux**  
+4. Version: **Debian (64-bit)**  
+5. RAM: **4096 MB**  
+6. CPU: **2 cores**  
+7. Create VDI → 30 GB  
+
+---
+
+## 🌐 Step 3 — Network Configuration
+Go to **Settings → Network**:
+
+**Adapter 1:**  
+- NAT (internet updates)
+
+**Adapter 2:**  
+- HOST-ONLY (lab internal network)
+
+This ensures Kali can attack other machines but cannot touch real networks.
+
+---
+
+## 🔧 Step 4 — Install Kali Linux
+Boot with the ISO → Select **Graphical Install**.
+
+Configure:
+
+- Keyboard  
+- Time zone  
+- Username & password  
+- Disk partitioning → *Use entire disk*  
+
+Install default tools.
+
+---
+
+## 🛡 Step 5 — Basic Post‑Installation
+Update system:
+
