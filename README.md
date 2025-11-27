@@ -1,4 +1,4 @@
-Cybersecurity & Ethical Hacking — Advanced Lab Setup
+🔐 Cybersecurity & Ethical Hacking — Advanced Lab Setup
 
 Professional Virtual Cybersecurity Testing Environment
 
